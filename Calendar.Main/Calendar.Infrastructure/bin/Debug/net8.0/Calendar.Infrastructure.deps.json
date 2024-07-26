@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Calendar.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Calendar.Application": "1.0.0"
+        },
+        "runtime": {
+          "Calendar.Infrastructure.dll": {}
+        }
+      },
+      "Calendar.Application/1.0.0": {
+        "dependencies": {
+          "Calendar.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Calendar.Application.dll": {}
+        }
+      },
+      "Calendar.Domain/1.0.0": {
+        "runtime": {
+          "Calendar.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Calendar.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calendar.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calendar.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

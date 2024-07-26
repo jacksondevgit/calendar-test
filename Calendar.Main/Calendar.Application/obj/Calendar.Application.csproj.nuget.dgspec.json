@@ -48,6 +48,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.4, )"
             }
           },
           "imports": [

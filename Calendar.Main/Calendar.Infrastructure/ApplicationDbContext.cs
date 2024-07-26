@@ -18,5 +18,11 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
         modelBuilder.Entity<EventEntity>().ToTable("Events");
     }
     
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new())
+    {
+        var result = await base.SaveChangesAsync(cancellationToken);
+        return result;
+    }
+    
     public virtual DbSet<EventEntity> Events { get; set; }
 }

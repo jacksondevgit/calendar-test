@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "PbqszynnQLd42pm402EZQtaZ8NKhtt5jVgiKLcjVyGrdrTQ9jAQAEXQAlQacfLJkFAeAEAtLG2ANX9wB7V7ZmQ==",
+  "dgSpecHash": "iMqivXshhNkgBH4nOgQmycvQiR0ze49fDEc18pJKRUAdf8cA1XlWLZqfve9zS+btuzxx9i1v+B7ip+NdKG8yDg==",
   "success": true,
   "projectFilePath": "R:\\calendar-test\\Calendar.Main\\Calendar.Application\\Calendar.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jackson\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\Jackson\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0-preview.6.24327.4\\microsoft.entityframeworkcore.9.0.0-preview.6.24327.4.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0-preview.6.24327.4\\microsoft.entityframeworkcore.abstractions.9.0.0-preview.6.24327.4.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.6.24327.4\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.6.24327.4.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0-preview.6.24327.4\\microsoft.entityframeworkcore.relational.9.0.0-preview.6.24327.4.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-preview.6.24327.7\\microsoft.extensions.caching.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-preview.6.24327.7\\microsoft.extensions.caching.memory.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.6.24327.7\\microsoft.extensions.configuration.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.6.24327.7\\microsoft.extensions.dependencyinjection.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.6.24327.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0-preview.6.24327.7\\microsoft.extensions.logging.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-preview.6.24327.7\\microsoft.extensions.logging.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-preview.6.24327.7\\microsoft.extensions.options.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.6.24327.7\\microsoft.extensions.primitives.9.0.0-preview.6.24327.7.nupkg.sha512"
   ],
   "logs": []
 }

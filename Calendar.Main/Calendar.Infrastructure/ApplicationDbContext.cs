@@ -11,5 +11,12 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
         
     }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<EventEntity>().ToTable("Events");
+    }
+    
     public virtual DbSet<EventEntity> Events { get; set; }
 }

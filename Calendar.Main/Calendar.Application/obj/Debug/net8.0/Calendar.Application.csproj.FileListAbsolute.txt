@@ -2,6 +2,8 @@ R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Calendar.Ap
 R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Calendar.Application.dll
 R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Calendar.Application.pdb
 R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Calendar.Domain.dll
+R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 R:\calendar-test\Calendar.Main\Calendar.Application\bin\Debug\net8.0\Calendar.Domain.pdb
 R:\calendar-test\Calendar.Main\Calendar.Application\obj\Debug\net8.0\Calendar.Application.csproj.AssemblyReference.cache
 R:\calendar-test\Calendar.Main\Calendar.Application\obj\Debug\net8.0\Calendar.Application.GeneratedMSBuildEditorConfig.editorconfig

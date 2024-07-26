@@ -5,9 +5,9 @@ namespace Calendar.Infrastructure;
 
 public static class Module
 {
-    public static IServiceCollection InitializeInfrastructure(this IServiceCollection services,
+    public static void InitializeInfrastructure(this IServiceCollection services,
         IConfiguration configuration)
     {
-        return services;
+
     }
 }

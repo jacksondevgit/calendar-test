@@ -24,4 +24,8 @@
       <ProjectReference Include="..\Calendar.Infrastructure\Calendar.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="App\" />
+    </ItemGroup>
+
 </Project>

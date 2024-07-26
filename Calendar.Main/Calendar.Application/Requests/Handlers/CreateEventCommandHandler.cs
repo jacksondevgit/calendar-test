@@ -17,7 +17,7 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand>
     {
         var schedule = new EventEntity
         {
-            Schedule = request.Schedule
+            StartDate = request.Schedule
         };
 
         _context.Events.Add(schedule);

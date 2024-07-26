@@ -7,7 +7,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
-// Define reactive state
 const date = ref(new Date().toISOString().slice(0, 10))
 const events = ref([])
 

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MLNTHvamh9hfmO9TwOEWiLoSaoBBUT6UClgjMblYc3+GZFOvAxpt0E8MiLfC7GDSrKuKAF5To4Vk5nXS1ryyzQ==",
+  "dgSpecHash": "PbqszynnQLd42pm402EZQtaZ8NKhtt5jVgiKLcjVyGrdrTQ9jAQAEXQAlQacfLJkFAeAEAtLG2ANX9wB7V7ZmQ==",
   "success": true,
   "projectFilePath": "R:\\calendar-test\\Calendar.Main\\Calendar.Application\\Calendar.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jackson\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Jackson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

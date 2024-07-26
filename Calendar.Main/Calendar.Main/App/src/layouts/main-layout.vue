@@ -1,7 +1,6 @@
 <template>
   <q-layout view="lHh LpR lFf">
     <AppHeader @toggle-drawer="toggleDrawer" />
-    <AppDrawer v-model="drawer" />
     <q-page-container>
       <q-page class="q-pa-lg">
         <router-view />

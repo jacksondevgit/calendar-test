@@ -1,7 +1,7 @@
 {
   "common": {
     "app": {
-      "name": "HRMS",
+      "name": "CALENDAR TEST",
       "version": "ver.1.0.0",
       "sidebar_default_menu": "Main Menu",
       "sidebar_admin_menu": "Administration"

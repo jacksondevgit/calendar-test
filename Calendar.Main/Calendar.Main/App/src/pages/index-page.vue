@@ -8,14 +8,8 @@
 import { ref, onMounted } from 'vue'
 
 // Define reactive state
-const date = ref('2019/02/01')
-const events = ref([
-  '2019/02/01',
-  '2019/02/05',
-  '2019/02/06',
-  '2019/02/09',
-  '2019/02/23',
-])
+const date = ref(new Date().toISOString().slice(0, 10))
+const events = ref([])
 
 onMounted(async () => {
   try {
@@ -27,7 +21,8 @@ onMounted(async () => {
       throw new Error(`HTTP error! Status: ${response.status}`)
     }
 
-    console.log(response)
+    const data = await response.json()
+    events.value = data.map((event) => event.scheduleString)
   } catch (err) {
   } finally {
   }

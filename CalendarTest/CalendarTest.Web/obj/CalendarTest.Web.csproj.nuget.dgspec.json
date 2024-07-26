@@ -1,0 +1,247 @@
+{
+  "format": 1,
+  "restore": {
+    "R:\\calendar-test\\CalendarTest\\CalendarTest.Web\\CalendarTest.Web.csproj": {}
+  },
+  "projects": {
+    "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Jackson\\.nuget\\packages\\",
+        "outputPath": "R:\\calendar-test\\CalendarTest\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jackson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.vonex.com.au/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "R:\\calendar-test\\CalendarTest\\Domain\\Domain.csproj": {
+                "projectPath": "R:\\calendar-test\\CalendarTest\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\calendar-test\\CalendarTest\\CalendarTest.Web\\CalendarTest.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\calendar-test\\CalendarTest\\CalendarTest.Web\\CalendarTest.Web.csproj",
+        "projectName": "CalendarTest.Web",
+        "projectPath": "R:\\calendar-test\\CalendarTest\\CalendarTest.Web\\CalendarTest.Web.csproj",
+        "packagesPath": "C:\\Users\\Jackson\\.nuget\\packages\\",
+        "outputPath": "R:\\calendar-test\\CalendarTest\\CalendarTest.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jackson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.vonex.com.au/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj": {
+                "projectPath": "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj"
+              },
+              "R:\\calendar-test\\CalendarTest\\Insfrastructure\\Insfrastructure.csproj": {
+                "projectPath": "R:\\calendar-test\\CalendarTest\\Insfrastructure\\Insfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\calendar-test\\CalendarTest\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\calendar-test\\CalendarTest\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "R:\\calendar-test\\CalendarTest\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Jackson\\.nuget\\packages\\",
+        "outputPath": "R:\\calendar-test\\CalendarTest\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jackson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.vonex.com.au/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\calendar-test\\CalendarTest\\Insfrastructure\\Insfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\calendar-test\\CalendarTest\\Insfrastructure\\Insfrastructure.csproj",
+        "projectName": "Insfrastructure",
+        "projectPath": "R:\\calendar-test\\CalendarTest\\Insfrastructure\\Insfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jackson\\.nuget\\packages\\",
+        "outputPath": "R:\\calendar-test\\CalendarTest\\Insfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jackson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.vonex.com.au/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj": {
+                "projectPath": "R:\\calendar-test\\CalendarTest\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -4,11 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",
@@ -27,7 +25,6 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Apply CORS policy
 app.UseCors("AllowAllOrigins");
 
 if (app.Environment.IsDevelopment())
